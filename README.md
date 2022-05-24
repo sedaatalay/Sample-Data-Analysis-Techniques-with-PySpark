@@ -118,8 +118,8 @@ df.select(df.schema.names[1],
   toDegrees(df.schema.names[1]),).show()
 ```   
 <img width="729" alt="Ekran Resmi 2022-05-24 21 41 40" src="https://user-images.githubusercontent.com/91700155/170109297-3fa28937-8c38-4987-8b95-ca087954bff0.png">
-<img width="720" alt="Ekran Resmi 2022-05-24 21 52 32" src="https://user-images.githubusercontent.com/91700155/170111024-77d8d82a-1f1e-4afb-b3fb-d4a17f9756cb.png">
-  
+<img width="729" alt="Ekran Resmi 2022-05-24 21 54 13" src="https://user-images.githubusercontent.com/91700155/170111316-cdcd08aa-ee7b-4ca5-9c39-4baeb4f12ff0.png">
+
 ### ColStats  
 ```console
 df.summary().show()
