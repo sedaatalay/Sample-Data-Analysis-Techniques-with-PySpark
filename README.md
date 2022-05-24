@@ -11,7 +11,7 @@ To setup jupyter notebook on EC2 Server, check the link below :
 https://github.com/sedaatalay/Running-Jupyter-Notebook-on-AWS-EC2-Server
  
 
-## On Jupyter Notebook Create Sample Data 
+## Creating an sample in Jupyter Notebook
   
 ### Simply import Apache Spark via 
   
