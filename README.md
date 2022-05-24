@@ -5,7 +5,7 @@
 Apache Spark is a fast, in-memory data processing engine with elegant and impressive development APIs that enable data workers to efficiently execute streaming, machine learning or SQL workloads that require fast iterative access to datasets. Spark was originally developed at UC Berkeley at the AMP Lab. Later, its code base was open sourced and eventually donated to the Apache Software Foundation; hence its current name, Apache Spark.
 
 ## Setup
-For this tutorial, we will be loading Apache Spark on Jupypter notebook. There are many tutorials on how to install Apache Spark, and they are easy to follow along. 
+For this tutorial, we will be loading Apache Spark on Jupyter Notebook. There are many tutorials on how to install Apache Spark, and they are easy to follow along. 
 To setup jupyter notebook on EC2 Server, check the link below :
 
 https://github.com/sedaatalay/Running-Jupyter-Notebook-on-AWS-EC2-Server
