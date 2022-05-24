@@ -54,11 +54,10 @@ numpy as np
 df= pd.DataFrame np.random.randint (0,100,size=(1000000, 51)), np.arange (
 df
 ``` 
-<img width="575" alt="Ekran Resmi 2022-05-24 21 32 50" src="https://user-images.githubusercontent.com/91700155/170107420-08c696d1-4219-4646-a063-c4e37ac51a5c.png">  
-  
 ```console
 df.to_csv('data.csv',index =None)
-```    
+```
+<img width="575" alt="Ekran Resmi 2022-05-24 21 32 50" src="https://user-images.githubusercontent.com/91700155/170107420-08c696d1-4219-4646-a063-c4e37ac51a5c.png">  
   
 ### SQLContext
   
