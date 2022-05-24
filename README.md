@@ -118,7 +118,7 @@ df.select(df.schema.names[1],
   toDegrees(df.schema.names[1]),).show()
 ```   
 <img width="729" alt="Ekran Resmi 2022-05-24 21 41 40" src="https://user-images.githubusercontent.com/91700155/170109297-3fa28937-8c38-4987-8b95-ca087954bff0.png">
-<img width="733" alt="Ekran Resmi 2022-05-24 21 41 53" src="https://user-images.githubusercontent.com/91700155/170109355-9425e666-48be-4377-b2c3-0790d9329ce6.png">
+<img width="720" alt="Ekran Resmi 2022-05-24 21 52 32" src="https://user-images.githubusercontent.com/91700155/170111024-77d8d82a-1f1e-4afb-b3fb-d4a17f9756cb.png">
   
 ### ColStats  
 ```console
@@ -140,7 +140,7 @@ compy_df = sqlContext.createDataFrame([(companies[i % len(companies)], positions
 compy_df.show()
 ```   
 <img width="736" alt="Ekran Resmi 2022-05-24 21 42 15" src="https://user-images.githubusercontent.com/91700155/170109565-67c9bd5b-35d1-4465-96f4-3f528f237423.png">
-<img width="735" alt="Ekran Resmi 2022-05-24 21 42 23" src="https://user-images.githubusercontent.com/91700155/170110648-f24e7357-68f9-4a2c-a2e9-3e51571776a5.png">
+<img width="722" alt="Ekran Resmi 2022-05-24 21 52 17" src="https://user-images.githubusercontent.com/91700155/170110997-b4101f74-8bde-49bf-94c2-1bbb64c1db87.png">
  
 ```console
 compy_df.stat.crosstab("Companies", "Positions").show()
