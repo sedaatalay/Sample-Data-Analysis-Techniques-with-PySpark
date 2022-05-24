@@ -140,7 +140,7 @@ compy_df = sqlContext.createDataFrame([(companies[i % len(companies)], positions
 compy_df.show()
 ```   
 <img width="736" alt="Ekran Resmi 2022-05-24 21 42 15" src="https://user-images.githubusercontent.com/91700155/170109565-67c9bd5b-35d1-4465-96f4-3f528f237423.png">
-<img width="745" alt="Ekran Resmi 2022-05-24 21 42 23" src="https://user-images.githubusercontent.com/91700155/170109630-bf4a7734-4879-4c66-a657-e7331e773d27.png">
+<img width="740" alt="Ekran Resmi 2022-05-24 21 42 23" src="https://user-images.githubusercontent.com/91700155/170110357-a250628b-578a-4130-a79e-dd1e26001561.png">
  
 ```console
 compy_df.stat.crosstab("Companies", "Positions").show()
